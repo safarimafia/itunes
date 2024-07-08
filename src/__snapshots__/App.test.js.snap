@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component without crashing 1`] = `
+<DocumentFragment>
+  <div>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="container"
+    >
+      <h1
+        class="my-4 text-center"
+      >
+        iTunes Search
+      </h1>
+      <div
+        class="container"
+      >
+        <div
+          class="justify-content-center row"
+        >
+          <div
+            class="col-md-6"
+          >
+            <form
+              class="p-4 border rounded"
+            >
+              <div>
+                <label
+                  class="form-label"
+                  for="formSearchTerm"
+                >
+                  Search Term
+                </label>
+                <input
+                  class="form-control"
+                  id="formSearchTerm"
+                  placeholder="Enter search term"
+                  required=""
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div>
+                <label
+                  class="form-label"
+                  for="formMediaType"
+                >
+                  Media Type
+                </label>
+                <select
+                  class="form-control"
+                  id="formMediaType"
+                >
+                  <option
+                    value="all"
+                  >
+                    All
+                  </option>
+                  <option
+                    value="movie"
+                  >
+                    Movie
+                  </option>
+                  <option
+                    value="podcast"
+                  >
+                    Podcast
+                  </option>
+                  <option
+                    value="music"
+                  >
+                    Music
+                  </option>
+                  <option
+                    value="audiobook"
+                  >
+                    Audiobook
+                  </option>
+                  <option
+                    value="shortFilm"
+                  >
+                    Short Film
+                  </option>
+                  <option
+                    value="tvShow"
+                  >
+                    TV Show
+                  </option>
+                  <option
+                    value="software"
+                  >
+                    Software
+                  </option>
+                  <option
+                    value="ebook"
+                  >
+                    eBook
+                  </option>
+                </select>
+              </div>
+              <button
+                block="true"
+                class="btn btn-primary"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        />
+      </div>
+      <h2
+        class="my-4 text-center"
+      >
+        Favorites
+      </h2>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <p>
+            No favorites added yet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
